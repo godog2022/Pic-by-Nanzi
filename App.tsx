@@ -241,8 +241,8 @@ const App: React.FC = () => {
   const applyWatermarks = useCallback(async (imageUrl: string | null) => {
     if (!imageUrl) return null;
     try {
-      const invisiblyWatermarked = await embedWatermark(imageUrl, "Nano Bananary｜ZHO");
-      const visiblyWatermarked = await addVisibleWatermark(invisiblyWatermarked, "Nano Bananary｜ZHO");
+      const invisiblyWatermarked = await embedWatermark(imageUrl, "pic by Nanzi");
+      const visiblyWatermarked = await addVisibleWatermark(invisiblyWatermarked, "pic by Nanzi");
       return visiblyWatermarked;
     } catch (err) {
       console.error("Failed to apply watermarks", err);
