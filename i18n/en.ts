@@ -1,6 +1,6 @@
 export default {
   app: {
-    title: "🍌 Pic by Nanzi",
+    title: "🍌 Banana That Thing   |   by Nanzi",
     history: "History",
     back: "Back",
     chooseAnotherEffect: "Choose Another Effect",

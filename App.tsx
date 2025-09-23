@@ -585,12 +585,29 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans">
       <header className="bg-[var(--bg-card-alpha)] backdrop-blur-lg sticky top-0 z-20 p-4 border-b border-[var(--border-primary)]">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 
-            className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)] cursor-pointer" 
+          <div 
+            className="flex items-center cursor-pointer" 
             onClick={handleResetApp}
           >
-            {t('app.title')}
-          </h1>
+            <svg
+              viewBox="0 10 100 75"
+              className="h-9 w-9 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M2,58 C2,98 98,98 98,58 L98,60 C90,80 70,85 50,85 C30,85 10,80 2,60 Z" fill="#3B82F6"/>
+              <rect x="39" y="50" width="22" height="10" fill="#f0d9c1"/>
+              <path d="M35,41 c0,10 30,10 30,0 v10 H35Z" fill="#111827"/>
+              <path d="M35,52 c-2,2 -2,6 0,8" fill="#f0d9c1"/>
+              <path d="M65,52 c2,2 2,6 0,8" fill="#f0d9c1"/>
+              <path d="M0,50 L50,10 L100,50 Z" fill="#78716C"/>
+              <path d="M0,50 L100,50 L98,48 L2,48 Z" fill="#A8A29E"/>
+            </svg>
+            <h1 
+              className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)]"
+            >
+              {t('app.title')}
+            </h1>
+          </div>
           <div className="flex items-center gap-2 md:gap-4">
             <button
               onClick={toggleHistoryPanel}

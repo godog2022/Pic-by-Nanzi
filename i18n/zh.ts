@@ -1,6 +1,6 @@
 export default {
   app: {
-    title: "🍌 南先森的香蕉",
+    title: "🍌 香蕉那个巴拉 | by Nanzi",
     history: "历史记录",
     back: "返回",
     chooseAnotherEffect: "选择其他效果",
@@ -37,7 +37,7 @@ export default {
     }
   },
   transformationSelector: {
-    title: "开始“蕉”虑吧！",
+    title: "让香蕉开始巴拉巴拉！",
     description: "准备好重塑你的现实了吗？选择一个类别开始施展魔法。你也可以拖放来重新排序你最喜欢的类别。",
     descriptionWithResult: "真有趣！你上一个创作已经准备好进行下一轮了。选择一个新的效果来继续这个创作链吧。"
   },
